@@ -138,7 +138,7 @@ ceph-deploy disk zap ceph:/dev/sdb ceph:/dev/sdc ceph:/dev/sdd
                  448 active+clean
    ```
 - Bước 13: Kiểm tra cấu hình các OSD bằng lệnh `sudo lsblk`, nếu thành công, kết quả như sau
-  ```sh
+```sh
 NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 fd0           2:0    1    4K  0 disk 
 sda           8:0    0   20G  0 disk 
@@ -156,5 +156,4 @@ sdd           8:48   0   50G  0 disk
 ├─sdd1        8:49   0   49G  0 part /var/lib/ceph/osd/ceph-2
 └─sdd2        8:50   0    1G  0 part 
 sr0          11:0    1  680M  0 rom  
-
-  ```
+```
